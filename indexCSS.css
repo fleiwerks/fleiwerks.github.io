@@ -33,7 +33,7 @@ body {
 }
 
 #menu a {
-      color: #e500fc;
+      color: #ffffff;
       text-align: center;
       font-weight: normal;
       font-family: monospace;
@@ -45,8 +45,8 @@ body {
 }
 
 #menu a:hover {
-      background-color: #1a77ff;
-      color: black;
+      background-color: #d3d3d3;
+      color: rgb(0, 0, 0);
 }
 
 #contenido {
@@ -76,6 +76,7 @@ body {
 
 #informacionPersonalContenido {
     display:flex;
+    overflow-x:hidden;
 }
 
 #informacionPersonalContenido img {
