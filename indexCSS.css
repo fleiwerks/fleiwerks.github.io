@@ -68,10 +68,14 @@ body {
     font-family: monospace;
     font-size:20px;
     color: white;
-    padding-left: 1%;
+    padding-left: 2%;
     padding-right: 1%;
     text-align: left;
     margin: inherit;
+}
+
+#informacionPersonalContenido {
+    display:flex;
 }
 
 #informacionPersonalContenido img {
@@ -92,11 +96,11 @@ a {
 }
 
 #Intro {
-    float:left;
     width: 50%;
 }
 
 #IDImage {
     display:inline-block;
-    width: 49%;
+    width: 50%;
+    padding-bottom: 1%;
 }
