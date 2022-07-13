@@ -3,15 +3,16 @@ body {
     padding:0px;
 }
 
-#contenedor {
-    background-attachment: fixed;
-    background-repeat: no-repeat;
+#Container {
     background-image: url(imagenes/background.png);
-    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
 }
 
 
-#logo {
+#Logo {
     width: 20%;
     text-align: center;
     align-content: center;
@@ -19,7 +20,7 @@ body {
     margin:auto;
 }
 
-#menu {
+#Menu {
     background-color: #333;
     overflow: hidden;
     background-position: center;
@@ -32,7 +33,7 @@ body {
     padding-bottom: .5%;
 }
 
-#menu a {
+#Menu a {
       color: #e500fc;
       text-align: center;
       font-weight: normal;
@@ -44,19 +45,19 @@ body {
       cursor:pointer;
 }
 
-#menu a:hover {
+#Menu a:hover {
       background-color: #1a77ff;
       color: black;
 }
 
-#contenido {
+#Content {
     margin: auto;
     width: 70%;
     background: rgba(0, 0, 0, 0.7);
     overflow-x:hidden;
 }
 
-#headerContenido {
+#HeaderContainer {
     margin-block-start: 0em;
     margin-block-end: 0em;
     color: white;
@@ -65,7 +66,7 @@ body {
     padding-top: 10px;
 }
 
-#informacionPersonalContenido p {
+#InfoContent p {
     font-family: monospace;
     font-size:20px;
     color: white;
@@ -75,21 +76,67 @@ body {
     margin: inherit;
 }
 
-#informacionPersonalContenido {
+#InfoContent {
     display:flex;
 }
 
-#informacionPersonalContenido img {
+#InfoContent img {
     max-width: 100%;
     max-height: 100%;
     margin: inherit;
+}
+
+#SkillsContent {
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    color: white;
+    text-align: center;
+    font-family: monospace;
+    padding-top: 10px;
+}
+
+#SkillsContent img {
+    max-width: 100%;
+    max-height: 100%;
+    margin: inherit;
+}
+
+#SkillsContent p {
+    font-weight: normal;
+    font-family: monospace;
+    font-weight: bold;
+    font-size:25px;
+    color: white;
+    text-align: center;
+    margin: inherit;
+}
+
+#Languages {
+    width: 50%;
+    text-align: center;
+    position: inherit;
+    margin: 0 auto;
+}
+#Languages img {
+    padding: .5%;
+}
+
+#Abilities {
+    width: 50%;
+    text-align: left;
+}
+
+#Abilities p {
+    text-align: left;
+    margin-left: 1%;
+    display: inline-block;
 }
 
 a {
     color: rgb(255, 0, 255);
 }
 
-#footer {
+#Footer {
     font-family: monospace;
     font-size:20px;
     color: white;
