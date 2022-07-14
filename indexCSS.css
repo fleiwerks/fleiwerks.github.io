@@ -66,6 +66,30 @@ body {
     padding-top: 10px;
 }
 
+a {
+    color: rgb(255, 0, 255);
+}
+
+#Footer {
+    font-family: monospace;
+    font-size:20px;
+    color: white;
+    text-align: center;
+}
+
+/*****************************************************************************/
+/*Unique to Home*/
+
+#Intro {
+    width: 50%;
+}
+
+#IDImage {
+    display:inline-block;
+    width: 50%;
+    padding-bottom: 1%;
+}
+
 #InfoContent p {
     font-family: monospace;
     font-size:20px;
@@ -85,6 +109,9 @@ body {
     max-height: 100%;
     margin: inherit;
 }
+
+/*****************************************************************************/
+/*Unique to Skills*/
 
 #SkillsContent {
     margin-block-start: 0em;
@@ -132,23 +159,48 @@ body {
     display: inline-block;
 }
 
-a {
-    color: rgb(255, 0, 255);
-}
+/*****************************************************************************/
+/*Unique to Skills*/
 
-#Footer {
+#Form {
+    width: 75%; 
+    height: 200px;
+    padding: 5px; 
+    font-weight: normal;
     font-family: monospace;
-    font-size:20px;
-    color: white;
+    font-weight: bold;
+}
+
+#EmailField {
+    width: 50%; 
+    height: 30px;
+    padding: 5px; 
+    font-weight: normal;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#FormDiv {
+    width: 50%;
+    padding-left: 1%;
+}
+
+#FormButton {
+    height: 30px;
+    font-weight: normal;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#SocialMedia {
+    width: 50%;
     text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 
-#Intro {
-    width: 50%;
-}
-
-#IDImage {
-    display:inline-block;
-    width: 50%;
-    padding-bottom: 1%;
+#SocialMedia img {
+    padding-block: 10%;
 }
