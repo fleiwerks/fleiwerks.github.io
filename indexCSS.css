@@ -4,7 +4,7 @@ body {
 }
 
 #Container {
-    background-image: url(imagenes/background.png);
+    background-image: url(imagenes/planetbackground3.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center center;
@@ -90,7 +90,23 @@ a {
     padding-bottom: 1%;
 }
 
+#ExperienceImage {
+    display:inline-block;
+    width: 42.5%;
+    padding-bottom: 1%;
+}
+
 #InfoContent p {
+    font-family: monospace;
+    font-size:20px;
+    color: white;
+    padding-left: 2%;
+    padding-right: 1%;
+    text-align: left;
+    margin: inherit;
+}
+
+#InfoContent li {
     font-family: monospace;
     font-size:20px;
     color: white;
