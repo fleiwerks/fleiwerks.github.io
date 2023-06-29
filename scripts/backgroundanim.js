@@ -7,5 +7,6 @@ VANTA.RINGS({
   minWidth: 200.00,
   scale: 2,
   scaleMobile: 3,
+  backgroundColor: 0x371b30,
   color: 0xef00ff
 })
